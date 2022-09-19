@@ -42,12 +42,12 @@ public class Main {
         var weightBoxer2 = 82.7;
         var weightOfBoxers = weightBoxer + weightBoxer2;
         System.out.println(weightOfBoxers);
-        var weightOfBoxers2 = weightBoxer - weightBoxer2;
+        var weightOfBoxers2 = weightBoxer2 - weightBoxer;
         System.out.println(weightOfBoxers2);
 // Задача 7
         var weightOfBoxers3 = weightBoxer2 - weightBoxer;
         System.out.println(weightOfBoxers3);
-        var weightOfBoxers4 = weightBoxer % weightBoxer2;
+        var weightOfBoxers4 = weightBoxer2 % weightBoxer;
         System.out.println(weightOfBoxers4);
 // Задача 8
         var time = 640;
